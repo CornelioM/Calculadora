@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='hojasdeestilo.css'>
+</head>
+
+<body>
+    <h1 class="cabecerauno">Calculadora</h1>
+    <div id="appCalculadora">
+
+        <form name="Calculadora">
+            <input type="textfield" name="Resultado" value="" autocomplete="off" readonly>
+            <br>
+
+            <input type="button" value="7" onclick="document.Calculadora.Resultado.value +='7'">
+            <input type="button" value="8" onclick="document.Calculadora.Resultado.value +='8'">
+            <input type="button" value="9" onclick="document.Calculadora.Resultado.value +='9'">
+            <input type="button" value="/" onclick="document.Calculadora.Resultado.value +='/'" class="orange">
+            <br>
+            <input type="button" value="4" onclick="document.Calculadora.Resultado.value +='4'">
+            <input type="button" value="5" onclick="document.Calculadora.Resultado.value +='5'">
+            <input type="button" value="6" onclick="document.Calculadora.Resultado.value +='6'">
+            <input type="button" value="*" onclick="document.Calculadora.Resultado.value +='*'" class="orange">
+            <br>
+            <input type="button" value="3" onclick="document.Calculadora.Resultado.value +='3'">
+            <input type="button" value="2" onclick="document.Calculadora.Resultado.value +='2'">
+            <input type="button" value="1" onclick="document.Calculadora.Resultado.value +='1'">
+            <input type="button" value="-" onclick="document.Calculadora.Resultado.value +='-'" class="orange">
+            <br>
+            <input type="button" value="0" onclick="document.Calculadora.Resultado.value +='0'">
+            <input type="reset" value="C" class="blue">
+            <input type="button" value="="
+                onclick="document.Calculadora.Resultado.value =eval(document.Calculadora.Resultado.value)" class="blue">
+            <input type="button" value="+" onclick="document.Calculadora.Resultado.value +='+'" class="orange">
+        </form>
+    </div>
+    <div class ="DatosDeNavegacion">
+        
+        <input type="button" value="Ir a Portafolio" onclick="location.href='https://corneliom.github.io/Portafolio/'">
+        <input type="button" value="Ir a Github" onclick="location.href='https://github.com/CornelioM/'">
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>PROXIMAMENTE... ESTA SERA LA NUEVA CALCULADORA(En progreso)</h2>
+    <div class="Calculadora">
+     
+        <div>5555555</div>
+        <div>5555555</div>
+
+        <button name="BtnAC">AC</button>
+        <button name="BtnAbrirParentesis">(</button>
+        <button name="BtnCerrarParentesis">)</button>
+        <button name="BtnPI">π</button>
+        <br>
+        <button name="BtnRaiz">√</button>
+        <button name="BtnPotencia">^</button>
+        <button name="BtnPorciento">%</button>
+        <button name="BtnDivision">÷</button>
+        <br>
+        <button name="BtnSiete">7</button>
+        <button name="BtnOcho">8</button>
+        <button name="BtnNueve">9</button>
+        <button name="BtnMultiplicacion">x</button>
+        <br>
+        <button name="BtnCuatro">4</button>
+        <button name="BtnCinco">5</button>
+        <button name="BtnSeis">6</button>
+        <button name="BtnResta">-</button>
+        <br>
+        <button name="BtnUno">1</button>
+        <button name="BtnDos">2</button>
+        <button name="BtnTres">3</button>
+        <button name="BtnSuma">+</button>
+        <br>
+        <button name="BtnAC">0</button>
+        <button name="BtnAC">.</button>
+        <button name="BtnEliminar">DEL</button>
+        <button name="BtnIgual">=</button>
+        <br>
+        
+       
+    </div>
+
+</body>
+
+</html>
