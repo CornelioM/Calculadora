@@ -54,6 +54,25 @@
     border: 0;
     border-radius: 100%;
 }
+#appCalculadora input[type=button]:hover{
+    background-color: gray;
+    
+}
+#appCalculadora input[type=reset]:hover{
+    background-color: gray;
+    
+}
+
+#appCalculadora .orange{
+        background-color: rgb(253,149,3);
+        color: white;
+    }
+    
+    #appCalculadora .blue{
+        background-color: rgb(34, 54, 146);
+        color: rgb(255, 255, 255);
+    }
+    
 
 #appCalculadora .orange{
     background-color: rgb(253,149,3);
@@ -94,5 +113,5 @@
     border-radius: 10%;
 }
 .DatosDeNavegacion input:hover{
-    background-color: gold;
+    background-color: gray;
 } 
